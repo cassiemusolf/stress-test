@@ -19,9 +19,9 @@ $(document).ready(function(){
  });
 
 
-  if (stress <= 4) {
+  if (stress <= 2) {
     $("#light-results").show();
-  } else if (stress >= 5 && stress <=8) {
+  } else if (stress >= 3 && stress <=6) {
     $("#med-results").show();
   } else {
     $("#heavy-results").show();
